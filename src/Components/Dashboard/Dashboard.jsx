@@ -1,5 +1,5 @@
 import "./Dashboard.css";
-import Logo from "../../assets/Icon.JPEG";
+import Logo from "../../assets/Icon.jpeg";
 // import Logo from "../../assets/Swift-Earn-Logo.jpg";
 import {NavLink, useNavigate} from "react-router-dom";
 import {IoHomeOutline} from "react-icons/io5";
