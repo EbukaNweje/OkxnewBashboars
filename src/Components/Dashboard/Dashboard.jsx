@@ -108,7 +108,7 @@ const Dashboard = () => {
 
       const handleLogOut = () =>{
           localStorage.removeItem("UserId");
-        window.location.href = "http://localhost:5173/"
+        window.location.href = "https://www.okxcrypfield.org/"
       }
       const handleAdmin = () =>{
         nav(`UserUpdate`)
