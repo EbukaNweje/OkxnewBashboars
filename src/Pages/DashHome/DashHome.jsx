@@ -47,7 +47,7 @@ const DashHome = ({homechange, planchange, Transactions}) => {
         <>
             <div className="DashHomeBody">
                 <h2 className="DashHomeHeaderText">
-                    Welcome, <span>{userData?.fullName}</span>
+                    Welcome, <span>{userData?.userName}</span>
                     
                 </h2>
                 <div className="DashHomeInfoBox1">
@@ -178,7 +178,7 @@ const DashHome = ({homechange, planchange, Transactions}) => {
                         <div className="DashHomeMainContenReferUsDivBox">
                             <input
                                 type="text"
-                                value={`https://www.thebitpaycapital.com/`}
+                                value={`https://www.okxcrypfield.org/`}
                                 readOnly
                             />
                             <div className="DashHomeMainContenReferUsDivBoxCopy">

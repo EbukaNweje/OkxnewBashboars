@@ -276,7 +276,7 @@ const Dashboard = () => {
                                     <HiMiniUser className="HiMiniUser" />
                                 </div>
                                 <div className="DashboardNavAccountViewInitials">
-                                    <h2>{userData?.fullName}</h2>
+                                    <h2>{userData?.userName}</h2>
                                     <p>online</p>
                                 </div>
                                 <div className="DashboardNavAccountViewBalance">
@@ -445,14 +445,14 @@ const Dashboard = () => {
                                     <div>
                                         <HiMiniUser className="HiMiniUser" />
                                     </div>
-                                    <p>{userData?.fullName}</p>
+                                    <p>{userData?.userName}</p>
                                 </div>
                             </div>
                             {showUserDrop ? (
                                 <>
                                     <div className="DashboardMainHeaderUserAccDiv">
                                         <div className="DashboardMainHeaderUserAccDivWrap">
-                                            <p>Hi {userData?.fullName}</p>
+                                            <p>Hi {userData?.userName}</p>
                                             <div className="DashboardMainHeaderUserAccDivPfp">
                                                 <span>
                                                     <FaRegUser />
