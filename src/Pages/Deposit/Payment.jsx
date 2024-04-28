@@ -85,7 +85,7 @@ const Payment = () => {
                                 </div>
                                  </CopyToClipboard>
                             </div>
-                            <h5>Network Type:<span>{paymentname=== "BITCOINP PAYMENT"? "BTC" : paymentname=== "ETHEREUM PAYMENT"? "ETH" :  paymentname === "USDT PAYMENT" ? "USDT" : paymentname=== "ETHEREUM PAYMENT"? "ETH" :  paymentname === "BNB PAYMENT" ? "BNB": null}</span></h5>
+                            <h5>Network Type:<span>{paymentname=== "BITCOINP PAYMENT"? "BTC" : paymentname=== "ETHEREUM PAYMENT"? "ETH" :  paymentname === "USDT PAYMENT" ? "USDT ERC20" : paymentname=== "ETHEREUM PAYMENT"? "ETH" :  paymentname === "BNB PAYMENT" ? "BNB": null}</span></h5>
                         </div>
                         <div className="DepPaymentContentD">
                             <p>Upload Payment proof after payment.</p>
